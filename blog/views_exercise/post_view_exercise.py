@@ -1,6 +1,7 @@
 from django.http import HttpResponse
-from django.views import generic
+from django.views import generic, View
 
-class PostViewExercice(generic.View):
+
+class PostViewExercise(View):
     def get(self, request, *args, **kwargs):
         return HttpResponse('Olá, seja bem vindo!')

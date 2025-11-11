@@ -1,1 +1,1 @@
-from .post_view_exercice import PostViewExercice
+from .post_view_exercise import PostViewExercise
